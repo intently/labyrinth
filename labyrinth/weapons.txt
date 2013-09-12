@@ -1,0 +1,72 @@
+Helms
+	Leather Cap
+	Leather Hood
+	Chain Coif
+	Steel Cap
+	Plate Coif
+	Horned Mask
+	Great Helm
+
+Gauntlets
+	Leather Gloves
+	Brass Knuckles
+	Chain Gloves
+	Plated Gauntlets
+	Knife Gloves
+	Steel Gauntlets
+	Set of Cesti
+
+Boots
+	Sandals
+	Shoes
+	Riding Boots
+	Iron Boots
+	War Boots
+
+shields
+	Buckler
+	Arm Shield
+	Kite Shield
+	Tower Shield
+	Mirror Shield
+
+armor
+0		300		Clothing
+1		600		Padded Leather
+2		900		Hard Leather
+3		1200	Hunting Leather
+4		1500	Ring Mail
+5		1800	Scale Mail
+6		2100	Chain Mail
+7		2400	Brigantine
+8		2700	Plate Mail
+9		3000	Full Plate
+0		3300	Field Plate
+1		3600	Mithril Chain Mail
+2		3900	Adamantite Full Plate
+
+Dex
+0	Knife
+1	Short Sword
+2	Truncheon
+3	Rapier
+4	Staff	
+5	Sabre
+6 Nunchuckas
+7	Katana
+	
+Str
+0	Dagger
+1	Mace
+2	Longsword		Battle Axe
+3	Broadsword 	Great Axe
+4	Bastard Sword
+5	Flail				Halbard
+6	Naginata
+7	Greatsword
+	
+	
+	Short Bow
+	Long Bow
+	Crossbow
+	Heavy Crossbow

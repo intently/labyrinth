@@ -1,0 +1,115 @@
+[Root]
+Most Recent Package=Labyrinth
+
+
+[Package|Labyrinth|labyrinth 0.5]
+Icon1=labyrinth.exe
+Title1=Labyrinth
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=manual.doc
+Title2=Labyrinth Manual
+StartIn2=$(AppPath)
+Key2=Icon4
+
+[Package|Labyrinth|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Life\games\labyrinth\Package
+
+[Package|Labyrinth|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Labyrinth|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Labyrinth|Files Found]
+
+[Package|Labyrinth|Files Released]
+
+[Package|Labyrinth|Missing Dependency Information]
+D:\Life\games\labyrinth\ctlist32.ocx=
+
+[Package|Labyrinth|Out-of-Date Dependency Information]
+
+[Package|Labyrinth|Files Added]
+d:\life\games\labyrinth\manual.doc=
+
+[Package|Labyrinth|Files Removed]
+d:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\mdac_typ.exe=
+
+[Package|Labyrinth|Files In Project]
+D:\Life\games\labyrinth\labyrinth.exe=Yes
+D:\WINNT\system32\msvbvm60.dll=Yes
+D:\WINNT\system32\OLEAUT32.DLL=Yes
+D:\WINNT\system32\OLEPRO32.DLL=Yes
+D:\WINNT\system32\ASYCFILT.DLL=Yes
+D:\WINNT\system32\STDOLE2.TLB=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\Program Files\Common Files\Designer\MSDERUN.DLL=Yes
+D:\Life\games\labyrinth\ctlist32.ocx=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+D:\WINNT\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Life\games\labyrinth\manual.doc=Yes
+
+[Package|Labyrinth|Configure Registry Files]
+Applicable=No
+
+[Package|Labyrinth|Configure Remote Servers]
+Applicable=No
+
+[Package|Labyrinth|Install Locations]
+D:\Life\games\labyrinth\labyrinth.exe=$(AppPath)
+D:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+D:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+D:\Life\games\labyrinth\ctlist32.ocx=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Life\games\labyrinth\manual.doc=$(AppPath)
+
+[Package|Labyrinth|Configure Shared Files]
+Applicable=Yes
+D:\Life\games\labyrinth\labyrinth.exe=No
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\Life\games\labyrinth\manual.doc=No
+
+[Package|Labyrinth|Distribution]
+Type=single
+Size=
+Title=Labyrinth 0.6
+
+[Package|Labyrinth|IconGroups]
+Group0=labyrinth 0.6
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Labyrinth|labyrinth 0.6]
+Icon1=labyrinth.exe
+Title1=Labyrinth
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=manual.doc
+Title2=Labyrinth Manual
+StartIn2=$(AppPath)
+Key2=Icon4
+
+[Package|Labyrinth|Package]
+PackageFolder=D:\Life\games\labyrinth\Package
+ProjectFolder=D:\Life\games\labyrinth
+ServerSideCab=
+File1=D:\Life\games\labyrinth\Package\setup.exe
+File2=D:\Life\games\labyrinth\Package\Setup.Lst
+File3=D:\Life\games\labyrinth\Package\labyrinth.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
